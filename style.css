@@ -78,6 +78,7 @@ li span{
     word-spacing: 2px;
 }
 
+
 a:hover{
     text-decoration: underline;
 }
@@ -145,3 +146,34 @@ ul img{
 iframe{
     flex-basis: 100%;
 }
+footer .cop{
+    padding-top: 1%;
+    margin: auto;
+}
+
+/*main*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0;
+    gap: 0.5%;
+    
+}
+main .pres{
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+main img{
+    width: 33%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+
+    
+
+
