@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Rubik+Dirt&display=swap" rel="stylesheet">
     
-    <title>Nous contacter</title>
+    <title>Nous contacter-Ducsman</title>
 </head>
 
 <body>
@@ -32,19 +32,25 @@
     <main>
         <form method="post">
             <fieldset>
-                <label for="Name">Name</label><br>
-                <input type="text" name="Name" id="Name" required placeholder="Enter your name" class="space" size="70" >
+                <label for="Prenom">Prénom</label><br>
+                <input type="text" name="Prenom" id="Prenom" required placeholder="paul" class="space" size="70" >
                 <br>
     
                 <label for="Mail">Email</label><br>
-                <input type="email" name="Mail" id="Mail" required placeholder="Enter your Email" class="space" size="70">
+                <input type="email" name="Mail" id="Mail" required placeholder="pierrepaul@gmail.com" class="space" size="70">
+                <br>
+
+                <label for="tel">Numéro de téléphone ? </label><br>
+                <input type="tel" name="tel" id="tel" required placeholder="06/55/92/30/55 " class="space" size="70" minlength="0" maxlength="10">
                 <br>
     
-            
-                <label for="Role">choisissez votre costume</label><br>
     
-                <select name="Role" id="Role" required class="space">
-                    <option value="Costume 1">Costume 1 </option>
+            
+                <label for="Role">Choisissez votre costume:</label><br>
+    
+                <select name="Role" id="Role" class="space">
+                    <option  id="Vetements">quel costume vous convient le mieux ?</option>
+                    <option value="Costume 1">Costume 1</option>
                     <option value="Costume 2">Costume 2</option>
                     <option value="Costume 3">Costume 3</option>
                     <option value="Costume 4">Costume 4</option>
@@ -53,11 +59,11 @@
                 </select><br>
     
                 <label for="comments">Besoin d'écrire quelque chose sur un de nos costume ? </label><br>
-                <textarea name="comments" id="comments" cols="30" rows="10"
-                    placeholder="laissez un commentaire !"></textarea>
+                <textarea name="comments" id="comments" cols="100" rows="10"
+                    placeholder="laissez un commentaire ! ( ex : je voudrais un costume pour mon mariage ) ! "></textarea>
                 <br><br>
     
-                <input type="submit" value="Submit">
+               <div class="bouton"><input  type="submit" value="Submit"></div>
     
     
     
