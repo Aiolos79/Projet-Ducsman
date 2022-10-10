@@ -13,11 +13,9 @@ header{
     text-align: center;
     justify-content: space-between;
 }
-
 .search{
     padding: 1%;
 }
-
 h1{
     font-size: 7em;
     font-family: 'Italianno', cursive;
@@ -28,7 +26,6 @@ h1{
     font-style: normal;
     
 }
-
 h2{
     font-size: 2.2em;
     font-family: 'Amiri', serif;
@@ -36,18 +33,14 @@ h2{
     text-decoration: none;
     font-style: normal;
     margin: 0 0;
-   
 }
-
 .panier{
     padding: 1%;
 }
-
 header .logo{
     line-height: 260%;
     padding-bottom: 3%;
 }
-
 .nav{
     font-family: 'Amiri', serif;
     flex-basis: 100%;
@@ -57,34 +50,28 @@ header .logo{
     border-top: 1px solid #303030;
     border-bottom: 1px solid #303030;
 }
-
 .nav a{
     color: #303030;
     text-decoration: none;
     font-size: 1.3em;
     text-transform: uppercase;
 }
-
 .nav ul{
     align-items: center;
     list-style: none;
 }
-
 .nav li{
     display: inline;
     padding: 0 3% 0 3%;
 }
-
 li span{
     word-spacing: 2px;
 }
-
 li a {
     color: #18272F;
     position: relative;
     text-decoration: none;
 }
-  
 li a::before {
     content: '';
     position: absolute;
@@ -98,7 +85,6 @@ li a::before {
     transform: scaleX(0);
     transition: transform .3s ease-in-out;
 }
-  
 li a:hover::before {
     transform-origin: center;
     transform: scaleX(1);
@@ -110,18 +96,15 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-top: 0.2%;
 }
-
 footer p{
     font-family: 'Amiri', serif;
     font-size: 1.4em;
 }
-
 footer .adresses{
     flex-basis: 85%;
 }
-
-
 .adresses{
     border-bottom: 1px solid #303030;
     border-top: 1px solid #303030;
@@ -139,7 +122,6 @@ footer .adresses{
     padding-right: 0;
     text-decoration: none;
 }
-
 .reseaux{
     background-color: #e2d1c3;
     border-bottom: 1px solid #303030;
@@ -181,34 +163,30 @@ main{
     justify-content: center;
     margin: 0 0;
     gap: 0.5%;
-    
 }
 main .pres{
     width: 100%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
 }
-
 main img{
     width: 100%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
 }
-
 main a{
     width: 33%;
 }
-
 #scroll_to_top {
     position: fixed;
     width: 25px;
     height: 25px;
     bottom: 50px;
     right: 30px;
-  }
-  #scroll_to_top img {
+}
+#scroll_to_top img {
     width: 25px;
-  }
+}
 
 /*page article*/
 
