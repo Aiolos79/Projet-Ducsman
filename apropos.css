@@ -1,0 +1,65 @@
+body{
+    margin: 1%;
+    color: #303030;
+}
+
+/*A propos*/
+
+.flex{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.image{
+    flex-direction: row;
+    width: 30%;
+    padding-top: 4em;
+}
+
+.flex .texte{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Maitree', serif;
+    width: 50%;
+}
+
+.flex h2{
+    flex-direction: column;
+text-align: center;
+font-size: 80px;
+color:cadetblue;
+}
+
+h2{
+    font-family: 'Amiri', serif;
+}
+
+h3, h4{
+    font-size: 60px;
+    color:cadetblue;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family:  'Amiri', serif;
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+p{
+    font-family: 'Maitree', serif;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.liste{
+    width:40em;
+    margin: auto;
+}
+
+li{
+    font-family: 'Maitree', serif;
+}
