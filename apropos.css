@@ -84,38 +84,51 @@ a:hover{
 
 /*A propos*/
 
-.apropos{
-    text-align: center;
-}
-
-.apropos img{
-    height: 230px;
-}
-
-.flexbox .image{
-    width: 10%;
-    height: auto;
-}
-
 .flex{
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
+        flex-wrap: wrap;
 }
 
-.flex p{
+.image{
+    flex-direction: row;
+    width: 30%;
+}
+
+.flex .texte{
+    display: flex;
     flex-direction: column;
-    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4em;
+    font-family: 'Maitree', serif;
+    width: 50%;
+}
+
+.flex h2{
+    flex-direction: column;
+text-align: center;
+font-size: 80px;
+color:cadetblue;
+}
+
+h3,h4{
+    border-top: 1px solid black;
+}
+
+h3{
+    font-size: 60px;
+    color:cadetblue;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family:  'Amiri', serif;
+}
+
+.p{
+    font-family: 'Maitree', serif;
+    text-align: center;
     padding-left: 10%;
     padding-right: 10%;
 }
-
-h1{
-text-align: center;
-font-size: 110px;
-}
-
-
 
 
