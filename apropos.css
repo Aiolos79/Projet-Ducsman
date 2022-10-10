@@ -1,0 +1,133 @@
+body{
+    margin: 1%;
+    color: #303030;
+}
+
+header{
+        display: flex;
+        flex-wrap: wrap;
+        background-image: linear-gradient(135deg, #fdfcfb 15%, #e2d1c3 50%);
+        text-align: center;
+        justify-content: space-between;
+}
+
+.search{
+    padding: 1%;
+}
+
+h1{
+    font-size: 7em;
+    font-family: 'Italianno', cursive;
+    text-align: left;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 10%;
+    font-style: normal;
+    
+}
+
+h2{
+    font-size: 2.2em;
+    font-family: 'Amiri', serif;
+    text-align: left;
+    text-decoration: none;
+    font-style: normal;
+    margin: 0 0;
+   
+}
+
+.panier{
+    padding: 1%;
+}
+
+header .logo{
+    line-height: 260%;
+    padding-bottom: 3%;
+}
+
+.nav{
+    font-family: 'Amiri', serif;
+    flex-basis: 100%;
+    word-spacing: 30px;
+    margin-top: 2%;
+    padding-bottom: 0;
+    border-top: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.nav ul{
+    align-items: center;
+    list-style: none;
+}
+
+.nav li{
+    display: inline;
+    padding: 0 3% 0 3%;
+}
+
+li span{
+    word-spacing: 2px;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*A propos*/
+
+.flex{
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.image{
+    flex-direction: row;
+    width: 30%;
+}
+
+.flex .texte{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4em;
+    font-family: 'Maitree', serif;
+    width: 50%;
+}
+
+.flex h2{
+    flex-direction: column;
+text-align: center;
+font-size: 80px;
+color:cadetblue;
+}
+
+h3,h4{
+    border-top: 1px solid black;
+}
+
+h3{
+    font-size: 60px;
+    color:cadetblue;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family:  'Amiri', serif;
+}
+
+.p{
+    font-family: 'Maitree', serif;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
