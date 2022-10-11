@@ -133,3 +133,24 @@ margin-top: 3em;
 
   
 }
+div.envoyer input{
+  background-color: rgb(173, 168, 162);
+}
+@media (min-width: 500px) {
+  div.envoyer input{
+    background-color: rgb(231, 173, 173);
+  }
+}
+
+@media (max-width: 500px) {
+  .couture{
+    display: none;
+  }
+body{
+  background-image: url(couturegood.jpg);
+}
+main{
+ margin-left: 5%;
+}
+  
+}
