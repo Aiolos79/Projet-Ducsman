@@ -6,55 +6,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="pexels-fernando-arcos-190819.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Rubik+Dirt&display=swap" rel="stylesheet">
-    
+
     <title>Nous contacter-Ducsman</title>
 </head>
 
 <body>
-
     <header>
-
-
+        <div class="search">
+            <form method="post">
+                <label>&nbsp;<input type="text" placeholder="recherche"></label>
+            </form>
+        </div>
+        <div class="logo">
+            <h1>Ducsman</h1>
+            <h2>Sapés comme jamais.</h2>
+        </div>
+        <div class="panier"><img src="/images/panier.png" alt="panier"></div>
+        <label id="burg" for="toggle"><img src="/images/burger.png" alt=""></label>
+        <input type="checkbox" id="toggle">
+        <div class="nav">
+            <ul>
+                <li><a href="apropos.html"> <span>A propos</span></a></li>
+                <li><a href="Index.html">Boutique</a></li>
+                <li><a href="sav">S.A.V</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </header>
-    
-    
+    <!---page conatct-->
+    <main class="cmain"></main>
     <div class="contenant">
-        
         <img class="couture" src="couturegood.jpg" alt="image">
         
-        <!-- <div class="texte_centrer">Prenez rendez-vous</div> -->
-        <main>
-            <form method="post">
+            <form class="formulaire" method="post">
                 <label for="name" class="label">Nom ( obligatoire ) </label>
-                <br>
-                <input type="text" id="name" name="name" class="input" placeholder="Sarah" maxlength="300" required>
-        
-                <br><br>
-        
+                <input type="text" id="name" name="name" class="input" placeholder="Sarah" required>
                 <label for="prénom" class="label">Prénom ( obligatoire ) </label>
-                <br>
                 <input type="text" name="prénom" id="prénom" class="input" placeholder="sarahkatz" required>
-        
-                <br><br>
-        
                 <label for="email" class="label">Email <span>( obligatoire )</span></label>
-                <br>
-                <input type="email" name="email" id="email" class="input" min="18" max="120" placeholder="sarahkatz@gmail.com" required>
-        
-                <br><br>
-    
+                <input type="email" name="email" id="email" class="input" placeholder="sarahkatz@gmail.com" required>
                 <label for="name" class="label">Numéro de téléphone ? ( obligatoire )</label>
-                <br>
-                
-                <input type="tel" id="name" name="name" class="input" placeholder="06/69/84/73/24" maxlength="10" required>
-                <br> <br>
+                <input type="tel" id="téléphone" name="name" class="input" placeholder="06/69/84/73/24" maxlength="10"
+                    required>
                 <label for="role" class="input">Choisissez ce qui vous convient le mieux</label>
-                <br>
                 <select name="role" id="role" class="input">
                     <option value="">quel costume voulez-vous ? </option>
                     <option value="1">costume 1 </option>
@@ -64,25 +63,52 @@
                     <option value="5">Costume 5</option>
                     <option value="6">Costume 6</option>
                 </select>
-                <br><br>
-                
-            <label for="comment" class="label">Commentaires</label>
-    
-            <br>
-    
-            <textarea name="comemnt" id="comment" class="input" cols="30" rows="10" placeholder="Un petit commentaire ? "></textarea>
-            <br> <br>
-            <INPUT class="Newsletter" type="checkbox" name="choix1" value="1" id="choix1">
-            <label for="choix1">Accepter les Newsletter ? </label>
-            <br><br>
-            <div class="envoyer"><input  type="submit" value="Envoyer !"></div>
-            </div>
+                <label for="comment" class="label">Commentaires</label>
+                <textarea name="comemnt" id="comment" class="input" cols="30" rows="10"
+                    placeholder="Un petit commentaire ? "></textarea>
+                <div class="newsletter">
+                <input type="checkbox" name="choix1" value="1" id="choix1">
+                <label for="choix1">Accepter les Newsletter ? </label></div>
+                <div class="envoyer"><input type="submit" value="Envoyer !"></div>
             </form>
-        </main>
+       
+    </div>
+</main>
     <footer>
+        <div class="foot">
+            <div class="adresses">
+                <p>Ducsman Paris<br>Halles de Paris 75001 Paris<br>
+                    <a href="mailto:ducsmanparis@gmail.com">ducsmanparis@gmail.com</a>
+                </p>
 
+            </div>
+
+            <div class="horaires">
+                <ul>
+                    <li id="hor">Horaires d'ouverture:</li>
+                    <li>Du lundi au vendredi: 9h-12h 14h-19h</li>
+                    <li>Samedi: 9h-19h</li>
+                    <li>Fermé le dimanche</li>
+                </ul>
+            </div>
+            <div class="reseaux">
+                <ul>
+                    <li><a href="www.instagram.com"><img src="/images/instagram.png" alt=""> instagram</a></li>
+                    <li><a href="www.facebook.com"><img src="/images/facebook.png" alt=""> facebook</a></li>
+                    <li><a href="www.twitter.com"><img src="/images/twitter.png" alt=""> twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.611443824994!2d2.33687184336242!3d48.861914960441084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e18a5f84801%3A0x6eb5daa624bdebd2!2sHalles%20de%20Paris%2C%2075001%20Paris!5e0!3m2!1sfr!2sfr!4v1665127763531!5m2!1sfr!2sfr"
+            width="1500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
-    
+    <div class="cop">&copy;Ducsman 2022</div>
+    <div id="scroll_to_top">
+        <a href="#top"><img src="/images/top.png" alt="Retourner en haut" /></a>
+    </div>
+    </footer>
 </body>
 
 </html>
