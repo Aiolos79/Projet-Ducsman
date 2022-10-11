@@ -25,31 +25,84 @@
     
     <div class="contenant">
         
-        <img src="image-contact.jpg" alt="image">
+        <img class="couture" src="couturegood.jpg" alt="image">
         
-        <div class="texte_centrer">Prenez rendez-vous</div>
+        <!-- <div class="texte_centrer">Prenez rendez-vous</div> -->
+        <main>
+            <form method="post">
+                <label for="name" class="label">Nom ( obligatoire ) </label>
+                <br>
+                <input type="text" id="name" name="name" class="input" placeholder="Sarah" maxlength="300" required>
+        
+                <br><br>
+        
+                <label for="prénom" class="label">Prénom ( obligatoire ) </label>
+                <br>
+                <input type="text" name="prénom" id="prénom" class="input" placeholder="sarahkatz" required>
+        
+                <br><br>
+        
+                <label for="email" class="label">Email <span>( obligatoire )</span></label>
+                <br>
+                <input type="email" name="email" id="email" class="input" min="18" max="120" placeholder="sarahkatz@gmail.com" required>
+        
+                <br><br>
+    
+                <label for="name" class="label">Numéro de téléphone ? ( obligatoire )</label>
+                <br>
+                
+                <input type="tel" id="name" name="name" class="input" placeholder="06/69/84/73/24" maxlength="10" required>
+                <br> <br>
+                <label for="role" class="input">Choisissez ce qui vous convient le mieux</label>
+                <br>
+                <select name="role" id="role" class="input">
+                    <option value="">quel costume voulez-vous ? </option>
+                    <option value="1">costume 1 </option>
+                    <option value="2">Costume 2</option>
+                    <option value="3">Costume 3</option>
+                    <option value="4">Costume 4</option>
+                    <option value="5">Costume 5</option>
+                    <option value="6">Costume 6</option>
+                </select>
+                <br><br>
+                
+            <label for="comment" class="label">Commentaires</label>
+    
+            <br>
+    
+            <textarea name="comemnt" id="comment" class="input" cols="30" rows="10" placeholder="Un petit commentaire ? "></textarea>
+            <br> <br>
+            <INPUT class="Newsletter" type="checkbox" name="choix1" value="1" id="choix1">
+            <label for="choix1">Accepter les Newsletter ? </label>
+            <br><br>
+            <div class="envoyer"><input  type="submit" value="Envoyer !"></div>
     </div>
-    <main>
-        <form method="post">
-            <fieldset>
-                <label for="Prenom">Prénom</label><br>
+    
+        
+            <!-- <fieldset>
+                <label class="espace" for="Prenom">Prénom(Obligatoire)</label><br>
                 <input type="text" name="Prenom" id="Prenom" required placeholder="paul" class="space" size="70" >
                 <br>
+
+                <label class="espace" for="name">Nom(obligatoire)</label><br>
+                <input type="text" name="name" id="name" required placeholder="06/55/92/30/55 " class="space" size="70" minlength="0" maxlength="10">
+                <br>
     
-                <label for="Mail">Email</label><br>
+    
+                <label class="espace" for="Mail">Email (Obligatoire)</label><br>
                 <input type="email" name="Mail" id="Mail" required placeholder="pierrepaul@gmail.com" class="space" size="70">
                 <br>
 
-                <label for="tel">Numéro de téléphone ? </label><br>
+                <label class="espace" for="tel">Numéro de téléphone ?(obligatoire) </label><br>
                 <input type="tel" name="tel" id="tel" required placeholder="06/55/92/30/55 " class="space" size="70" minlength="0" maxlength="10">
                 <br>
     
     
             
-                <label for="Role">Choisissez votre costume:</label><br>
+                <label class="espace" for="Role">Choisissez votre costume:</label><br>
     
                 <select name="Role" id="Role" class="space">
-                    <option  id="Vetements">quel costume vous convient le mieux ?</option>
+                    <option class="espace" id="Vetements">quel costume vous convient le mieux ?</option>
                     <option value="Costume 1">Costume 1</option>
                     <option value="Costume 2">Costume 2</option>
                     <option value="Costume 3">Costume 3</option>
@@ -58,16 +111,18 @@
                     <option value="Costume 6">Costume 6</option>
                 </select><br>
     
-                <label for="comments">Besoin d'écrire quelque chose sur un de nos costume ? </label><br>
+                <label class="comments" for="comments">Besoin d'écrire quelque chose sur un de nos costume ? </label><br>
                 <textarea name="comments" id="comments" cols="100" rows="10"
                     placeholder="laissez un commentaire ! ( ex : je voudrais un costume pour mon mariage ) ! "></textarea>
                 <br><br>
     
                <div class="bouton"><input  type="submit" value="Submit"></div>
+               <INPUT class="Newsletter" type="checkbox" name="choix1" value="1" id="choix1">
+                <label for="choix1">Accepter les Newsletter ? </label>
     
     
     
-            </fieldset>
+            </fieldset> -->
         </form>
     </main>
 
