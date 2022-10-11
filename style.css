@@ -258,6 +258,7 @@ main .cost{
     color: #303030;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .page p{
     font-family: 'Maitree', serif;
@@ -415,6 +416,18 @@ h6{
     #toggle:checked + .nav {
             display: flex;
         }
+
+    /*--article--*/
+
+    .article{
+         justify-content: center;   
+        }
+    .descriptif{
+        justify-content: center;
+        text-align: center;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
 }
 
 
