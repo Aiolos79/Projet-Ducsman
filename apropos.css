@@ -5,24 +5,24 @@ body{
 
 /*A propos*/
 
-.flex{
+.acontainer{
         display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    
 }
 
-.image{
+.aimage{
     flex-direction: row;
     width: 30%;
     height: auto;
     padding-top: 4em;
 }
 
-.image1{
+.aimage1{
     width: 100%;
 }
 
-.flex .texte{
+.acontainer .atexte{
     display: flex;
     flex-direction: column;
     padding-left: 10%;
@@ -31,7 +31,7 @@ body{
     width: 50%;
 }
 
-.flex h2{
+.acontainer h2{
     flex-direction: column;
 text-align: center;
 font-size: 80px;
@@ -60,7 +60,7 @@ p{
     padding-right: 10%;
 }
 
-.liste{
+.aliste{
     width:40em;
     margin: auto;
 }
@@ -71,11 +71,11 @@ li{
 
 @media screen and (max-width: 480px){
 
-.image{
+.aimage{
 width: 100%;
 text-align: center;
 }
-.image1{
+.aimage1{
     width: 60%;
 }
 }
