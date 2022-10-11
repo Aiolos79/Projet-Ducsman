@@ -1,85 +1,4 @@
-/* #image{
-   text-align: center;
-}
 
-
-img {
-    
-    display: block;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 15%;
-    
-    
-}
-
-.contenant {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
- 
-}
-  
-.texte_centrer {
-    position: absolute;
-    top: 94%;
-    right: 3%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    font-family: 'Italianno', cursive;
-    color: #303030;
-
-  }
-  .form-example{
-    text-align: center;
-    
-  }
-main{
-    padding-left: 20%;
-    padding-right: 20%;
-    background-image: url(costume.jpp);
-    
-}
-#comments{
-  resize: none;
-}
-fieldset{
-  margin-top: 10px;
-}
-.bouton{
- margin-left: 30em;
-}
-
-input{
-  margin-bottom: 2%;
-margin-left: 2%;
-width: 96%;
-}
-
-::placeholder{
-  padding-left: 10px;
-}
-
-label{
-  margin-bottom: 5%;
-}
-.espace{
-  margin-left: 2%;
-}
-select{
-  margin-left: 2%;
-}
-label.comments{
-  margin-top: 10%;
-  margin-left: 2%;
-}
-.couture{
-  padding-top 30%;
-}
-.Newsletter{
-  width: 1%;
-  margin-left: 40%;
-} */
 form {
 
   background-color: #303030;
@@ -91,7 +10,7 @@ form {
 margin-left: 0%;
   width: 100%;
   clear: both;
-  padding-top: ;
+  padding-top: 0;
   padding-bottom: 10px;
   margin-top: 10px;
 
@@ -115,16 +34,10 @@ body {
   
 
  }
- main{
+ main.cmain{
   width: 90%;
  }
- header{
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #f9f9f9;
-  text-align: center;
-  justify-content: space-between;
-}
+
 .search{
   padding: 1%;
 }
@@ -136,11 +49,8 @@ margin-top: 3em;
 div.envoyer input{
   background-color: rgb(173, 168, 162);
 }
-@media (min-width: 500px) {
-  div.envoyer input{
-    background-color: rgb(231, 173, 173);
-  }
-}
+
+
 
 @media (max-width: 500px) {
   .couture{
