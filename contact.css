@@ -89,7 +89,7 @@ form {
 }
 .input {
 margin-left: 0%;
-  width: 90%;
+  width: 100%;
   clear: both;
   padding-top: ;
   padding-bottom: 10px;
@@ -106,7 +106,7 @@ body {
   font-weight: bold;
   
  }
- .bouton{
+ .envoyer{
   margin-left: 50%;
  }
  .contenant{
@@ -130,5 +130,6 @@ body {
 }
 .couture{
 margin-top: 3em;
+
   
 }
