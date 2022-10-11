@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #f9f9f9;
     margin: 0;
@@ -6,7 +9,12 @@ body{
 }
 
 /*header*/
-
+#burg{
+    display: none;
+}
+#toggle{
+    display: none;
+}
 header{
     display: flex;
     flex-wrap: wrap;
@@ -207,7 +215,7 @@ main img{
     padding-bottom: 0.5%;
 }
 main .cost{
-    width: 33%;
+    flex-basis: 33%;
     position: relative;
     display: inline-block;
 }
@@ -294,15 +302,119 @@ h6{
     vertical-align: middle;
 }
 
-
-
-
-
-
 /*---responsive---*/
 
-@media {
-    
+/*--accueil--*/
+
+@media screen and (max-width: 480px){
+
+    header{
+        order: 1;
+    }
+    header .logo{
+        flex-basis: 100%;
+        padding-left: 9%;
+    }
+    .panier{
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    main.pres{
+        order: 2;
+    }
+    .pres .slogan{
+        padding-left: 1%;
+        font-size: 1.1em;
+        position: absolute;
+        bottom: 5%;
+        left: 1%
+    }
+    main .cost{
+        order: 3;
+        flex-basis: 100%;
+    }
+    .cost .prix{
+        bottom: 91.5%;
+        left: 81%;
+    }
+    .cost .matiere{
+        bottom: 2%;
+    }
+    .search{
+        display: none;
+    }
+    .foot{
+        margin: 0;
+    }
+    .foot .adresses{
+        flex: 100%;
+    }
+    .adresses p{
+        text-align: center;
+        width: 100%;
+    }
+    .adresses{
+        order: 4;
+        flex-basis: 100%;
+        padding: 0;
+    }
+    .horaires{
+        order: 5;
+        flex: 100%;
+    }
+    .horaires ul{
+        margin-left: -6%;
+    }
+    .foot .horaires{
+        flex: 100%;
+        text-align: center;
+    }
+    .reseaux{
+        order: 6;
+        flex-basis: 100%;
+    }
+    .reseaux ul{
+        margin-left: -18%;
+    }
+
+    /*---Menu burger----*/
+
+    #toggle{
+        display: none;
+    }
+    .nav{
+        height: 1%;
+        display: none;
+        flex-direction: row;
+        background: #f9f9f9;
+        height: 2%;
+    }
+    .nav ul{
+        margin: 0;
+        padding-left: 35%;
+        padding-right: 35%;
+    }
+    #burg{
+        display: flex;
+        flex-basis: 10%;
+    }
+    #burg img{
+        width: 80%;
+        padding-left: 24%;
+    }
+    label{
+        width: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 1%;
+        color: white;
+        cursor: pointer;
+        }
+    #toggle:checked + .nav {
+            display: flex;
+        }
 }
 
 
