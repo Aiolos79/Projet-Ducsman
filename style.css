@@ -125,7 +125,7 @@ footer .foot{
     flex-basis: 33%;
 }
 .adresses{
-    background-image: #f9f9f9;
+    background-color: #f9f9f9;
 }
 .adresses p{
     padding-left: 1%;
@@ -258,7 +258,6 @@ main .cost{
     color: #303030;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 .page p{
     font-family: 'Maitree', serif;
@@ -301,6 +300,61 @@ h6{
 .livraison img{
     width: 4%;
     vertical-align: middle;
+}
+
+/*A propos*/
+
+.acontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+.aimage{
+    flex-direction: row;
+    flex: 1;
+    padding-top: 0.5%;
+    padding-left: 0;
+}
+.aimage1{
+    width: 100%;
+}
+.acontainer .atexte{
+    flex-direction: column;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Maitree', serif;
+    flex: 2;
+}
+.acontainer h2{
+    flex-direction: column;
+    text-align: center;
+    font-size: 80px;
+    color: #303030;
+    font-family: 'Amiri', serif;
+}
+.acontainer h3, h4{
+    font-size: 60px;
+    color: #303030;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-family:  'Amiri', serif;
+    border-top: 1px solid black;
+    width: 100%;
+}
+.acontainer p{
+    font-family: 'Maitree', serif;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.aliste{
+    width:40em;
+    margin: auto;
+}
+.acontainer li{
+    font-family: 'Maitree', serif;
 }
 
 /*---responsive---*/
@@ -418,7 +472,9 @@ h6{
         }
 
     /*--article--*/
-
+    .page{
+        flex-wrap: wrap;
+    }
     .article{
          justify-content: center;   
         }
@@ -428,6 +484,38 @@ h6{
         padding-left: 0.5%;
         padding-right: 0.5%;
     }
+
+    /*--a propos--*/
+
+        .aimage{
+        flex: 100%;
+        text-align: center;
+        }
+        
+        .aimage1{
+            flex: 100%;
+        }
+        .acontainer h2, h3 ,h4{
+            border-top: 1px solid black;
+            flex: 100%;
+            line-height: 1em;
+            margin-bottom: 0;
+        }
+        .acontainer p{
+            padding-left: 1%;
+            padding-right: 1%;
+            text-align: left;
+        }
+        .acontainer{
+            justify-items: center;
+        }
+        .acontainer .atexte{
+            width: 100%;
+        }
+        .atexte p{
+            flex: 100%;
+            padding: 0;
+        }
 }
 
 
