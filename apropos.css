@@ -8,12 +8,12 @@ body{
 .acontainer{
         display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
 
 .aimage{
     flex-direction: row;
-    width: 30%;
+    width: 25%;
     height: auto;
     padding-top: 4em;
 }
@@ -23,12 +23,11 @@ body{
 }
 
 .acontainer .atexte{
-    display: flex;
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 4%;
+    padding-right: 6%;
     font-family: 'Maitree', serif;
-    width: 50%;
+    width: 58%;
 }
 
 .acontainer h2{
@@ -51,6 +50,7 @@ h3, h4{
     font-family:  'Amiri', serif;
     border-top: 1px solid black;
     width: 100%;
+    
 }
 
 p{
@@ -69,13 +69,37 @@ li{
     font-family: 'Maitree', serif;
 }
 
+/*responsive*/
+
 @media screen and (max-width: 480px){
 
 .aimage{
 width: 100%;
 text-align: center;
 }
+
 .aimage1{
     width: 60%;
+}
+
+h3, h4{
+    border-top: 1px solid black;
+    width: 80%;
+}
+
+/*flex*/
+
+.acontainer{
+    justify-content: baseline;
+    justify-items: center;
+}
+
+.acontainer .atexte{
+    width: 100%;
+}
+
+.atexte p{
+    width: 100%;
+    padding: 0;
 }
 }
