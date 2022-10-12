@@ -399,7 +399,7 @@ div.envoyer input{
 
 /*S.A.V*/
 
-.sav .container{
+.savcontainer{
     color: #303030;
     display: flex;
     flex-direction: row;
@@ -408,17 +408,14 @@ div.envoyer input{
     padding-bottom: 0.5%;
 }
 .left{
-    flex-basis: 40%;
+    flex-basis: 40%
 }
 .right h2{
     text-align: center;
     font-size: 5em;
     vertical-align: top;
-    padding-bottom: 10%;
-    padding-top: 3%;
-}
-.left img{
-    width: 100%;
+    padding-bottom: 4%;
+    padding-top: 2%;
 }
 .right{
     flex-basis: 58%;
@@ -458,7 +455,7 @@ button {
     padding: 1%;
 }
 .mentions {
-    margin-top: 9%;
+    margin-top: 5%;
     padding-top: 0;
 }
 .mentions p{
@@ -673,6 +670,9 @@ button {
        }
        .left{
         flex-basis: 100%;
+       }
+       .left img{
+        width: 100%;
        }
        .right h2{
         padding-top: 10%;
