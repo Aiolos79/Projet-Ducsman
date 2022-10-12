@@ -6,4 +6,4 @@ Sabrina
 Florian
 Fabien
 
-Contient 5 pages html version pc et mobile et un fichier css
+Contient 5 pages html version pc adapté aux ecrans mobiles (testé sur iphone 12) et un fichier css
