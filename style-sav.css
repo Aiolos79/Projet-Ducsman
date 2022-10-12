@@ -1,0 +1,199 @@
+body{
+    margin: 1%;
+    color: #303030;
+    background: #f9f9f9;
+    font-family: 'Maitree', serif;
+
+}
+
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.search{
+    padding: 1%;
+}
+
+h1{
+    font-size: 7em;
+    font-family: 'Italianno', cursive;
+    text-align: left;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 10%;
+    font-style: normal;
+    
+}
+
+h2{
+    font-size: 2.2em;
+    font-family: 'Amiri', serif;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    margin: 0 0;
+   
+}
+
+p {
+
+    text-align: justify;
+}
+
+.panier{
+    padding: 1%;
+}
+
+header .logo{
+    line-height: 260%;
+    padding-bottom: 3%;
+}
+
+.nav{
+    font-family: 'Amiri', serif;
+    flex-basis: 100%;
+    word-spacing: 30px;
+    margin-top: 2%;
+    padding-bottom: 0;
+    border-top: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.nav ul{
+    align-items: center;
+    list-style: none;
+}
+
+.nav li{
+    display: inline;
+    padding: 0 3% 0 3%;
+}
+
+li span{
+    word-spacing: 2px;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*A propos*/
+
+.apropos{
+    text-align: left;
+}
+
+
+.container {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+}
+
+.left{
+    margin-top: 1%;
+    flex-wrap: wrap;
+    flex: 1;
+
+}
+
+.right {
+
+    flex-basis: 62%;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-left: 1px dotted black;
+    padding-left: 1%;
+}
+
+/* CSS FORM */
+
+form {
+
+    background-color: #303030 ;
+    margin-top: 5%;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+    color: white
+
+}
+
+.label {
+    text-align: left;
+    width: 50%;
+}
+
+form {
+
+    margin: auto;
+    width: 50%;
+   
+}
+
+.input {
+
+    width: 100%;
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+button {
+
+    color: white;
+    background: green;
+    width: 100%;
+    margin: auto;
+    border: none;
+    margin-top: 20px;
+    padding: 1%;
+
+
+}
+
+span {
+
+    font-weight: lighter;
+}
+
+.checkbox {
+
+    display: block;
+
+}
+
+form.seek {
+    background: #f9f9f9;
+    margin: 0;
+
+}
+
+main {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.mentions {
+
+    margin-top: 5%;
+
+}
