@@ -333,12 +333,12 @@ h6{
 .acontainer h2{
     flex-direction: column;
     text-align: center;
-    font-size: 80px;
+    font-size: 3em;
     color: #303030;
     font-family: 'Amiri', serif;
 }
 .acontainer h3, h4{
-    font-size: 60px;
+    font-size: 2em;
     color: #303030;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -379,7 +379,7 @@ h6{
 }
 .envoyer{
     margin-left: 50%;
-  }
+}
 .contenant{
     display:flex;
     flex-direction: row;
@@ -387,14 +387,82 @@ h6{
     gap: 0.5%;
 }
 main.cmain{
-    width: 90%;
+    width: 100%;
 }
 .couture{
-margin-top: 0.5%;
-margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 div.envoyer input{
     background-color: #f9f9f9;
+}
+
+/*S.A.V*/
+
+.sav .container{
+    color: #303030;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.left{
+    flex-basis: 40%;
+}
+.right h2{
+    text-align: center;
+    font-size: 5em;
+    vertical-align: top;
+    padding-bottom: 10%;
+    padding-top: 3%;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    flex-basis: 58%;
+    padding: 0 1% 0 0.5%;
+    line-height: 180%;
+}
+.right p{
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 0.5%;
+}
+.right form{
+    background-color: #303030 ;
+    margin: auto;
+    width: 80%;
+    padding: 0 2% 0 2%;
+    color: #f9f9f9;
+    line-height: 220%;
+}
+.label {
+    text-align: left;
+    width: 50%;
+}
+.input {
+    width: 100%;
+    clear: both;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+}
+button {
+    color: #f9f9f9;
+    width: 100%;
+    margin: auto;
+    border: none;
+    margin-top: 2%;
+    padding: 1%;
+}
+.mentions {
+    margin-top: 9%;
+    padding-top: 0;
+}
+.mentions p{
+    text-align: left;
 }
 
 /*---responsive---*/
@@ -439,8 +507,8 @@ div.envoyer input{
         bottom: 2%;
     }
     .descriptif h4{
-    font-size: 2em;
-    text-align: center;
+        font-size: 2em;
+        text-align: center;
     }
     .search{
         display: none;
@@ -520,6 +588,7 @@ div.envoyer input{
         }
 
     /*--article--*/
+
     .page{
         flex-wrap: wrap;
     }
@@ -536,52 +605,53 @@ div.envoyer input{
     /*--a propos--*/
 
         .aimage{
-            flex: 100%;
-            text-align: center;
+        flex: 100%;
+        text-align: center;
         }
         
         .aimage1{
-            flex: 100%;
+        flex: 100%;
         }
         .acontainer h2, h3 ,h4{
-            border-top: 1px solid black;
-            flex: 100%;
-            line-height: 1em;
-            margin-bottom: 0;
+        border-top: 1px solid black;
+        flex: 100%;
+        line-height: 1em;
+        margin-bottom: 0;
         }
         .acontainer p{
-            padding-left: 1%;
-            padding-right: 1%;
-            text-align: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        text-align: left;
         }
         .acontainer{
-            justify-items: center;
+        justify-items: center;
         }
         .acontainer .atexte{
-            width: 100%;
+        width: 100%;
         }
         .atexte p{
-            flex: 100%;
-            padding: 0;
+        flex: 100%;
+        padding: 0;
         }
 
         /*contact*/
+
         form{
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            padding: 1%;
-            margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        margin: 0;
         }
        .contenant{
-            flex-wrap: wrap;
-            margin: 0;
+        flex-wrap: wrap;
+        margin: 0;
        }
        .couture{
-         width: 100%;
+        width: 100%;
        }
        .formulaire label{
-            margin: 0;
+        margin: 0;
         }
        .formulaire{
         margin-bottom: 0.5%;
@@ -597,7 +667,24 @@ div.envoyer input{
         margin: auto;
        }
        
-     
+       /*S.A.V*/
+       .right{
+        flex-basis: 100%;
+       }
+       .left{
+        flex-basis: 100%;
+       }
+       .right h2{
+        padding-top: 10%;
+       }
+       #envoie{
+        margin-top: 2%;
+        margin-bottom: 2%;
+       }
+       #eff{
+        margin-top: 1%;
+        margin-bottom: 3%;
+       }
     }
 
 
