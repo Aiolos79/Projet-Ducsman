@@ -364,6 +364,7 @@ h6{
 /*contact*/
 
 .formulaire{
+    font-family: 'Maitree', serif;
     color: #f9f9f9;
     line-height: 220%;
     background-color: #303030;
@@ -377,8 +378,9 @@ h6{
     padding-top: 0;
     padding-bottom: 1%;
 }
-.envoyer{
+.envoyer input{
     margin-left: 50%;
+    border: none;
 }
 .contenant{
     display:flex;
