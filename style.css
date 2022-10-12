@@ -297,6 +297,10 @@ h6{
 .descriptif{
     padding-left: 2%;
 }
+.descriptif h4{
+    font-size: 2.5em;
+    text-align: left;
+}
 .livraison img{
     width: 4%;
     vertical-align: middle;
@@ -408,10 +412,13 @@ div.envoyer input{
     }
     .panier{
         flex-basis: 100%;
-        justify-content: center;
+    }
+    .panier img{
+        margin-right: 1.9%;
     }
     .amain.pres{
         order: 2;
+
     }
     .pres .slogan{
         padding-left: 1%;
@@ -430,6 +437,10 @@ div.envoyer input{
     }
     .cost .matiere{
         bottom: 2%;
+    }
+    .descriptif h4{
+    font-size: 2em;
+    text-align: center;
     }
     .search{
         display: none;
